@@ -1,6 +1,12 @@
-## CPP Modules
 
-### Summary
-An introduction to C++, in a modular manner, where new modules gives concepts to build on from the previous.
+# CPP Modules
 
-The fundamentals of C++ are introduced in each module covering topics from Classes, Ineritance, Polymorphism, Abstraction, Interface, Exceptions, Templates that extend the C programming language making C++ an Object-oriented language.
+## Summary
+> `CPP Modules`is a modular approach to learning `C++`. Each module builds upon the previous one, introducing new concepts and allowing learners to progressively expand their understanding.
+
+>Each module focuses on essential topics such as classes, inheritance, polymorphism, abstraction, interfaces, exceptions, and templates. By exploring these concepts, I gained a solid foundation in C++ and understand how it extends the capabilities of the C programming language, transforming it into an object-oriented language.
+
+
+
+<h2>Credits</h3>
+This project is part of the curriculum at <a href="https://www.42heilbronn.de"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/42_Logo.svg/1200px-42_Logo.svg.png" width="20" alt="42" /></a>, a coding school that fosters peer-to-peer learning and project-based education.
