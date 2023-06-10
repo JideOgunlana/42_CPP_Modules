@@ -2,7 +2,7 @@
 # CPP Modules
 
 ## Summary
-> `CPP Modules`is a modular approach to learning `C++`. Each module builds upon the previous one, introducing new concepts and allowing learners to progressively expand their understanding.
+> `CPP Modules` is a modular approach to learning `C++`. Each module builds upon the previous one, introducing new concepts and allowing learners to progressively expand their understanding.
 
 >Each module focuses on essential topics such as classes, inheritance, polymorphism, abstraction, interfaces, exceptions, and templates. By exploring these concepts, I gained a solid foundation in C++ and understand how it extends the capabilities of the C programming language, transforming it into an object-oriented language.
 
