@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   PmergeMe.cpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bogunlan <bogunlan@student.42heilbronn.    +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/22 18:25:49 by codespace         #+#    #+#             */
-/*   Updated: 2023/05/28 16:31:49 by bogunlan         ###   ########.fr       */
+/*   Updated: 2023/07/17 11:41:53 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ void PmergeMe::mergeInsertionSortVector(int argc, char **argv) {
 
 	std::vector<int>::iterator vector_it = v_result.begin();
 
-	std::cout << "After:\nVECTOR container =>";
+	std::cout << "After:\nVECTOR container => ";
 	size_t limit_size = 100;
 	if (v_result.size() > limit_size) {
 		for (size_t i = 0; i < limit_size; ++i) {
