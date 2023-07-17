@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   PmergeMe.hpp                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: bogunlan <bogunlan@student.42heilbronn.    +#+  +:+       +#+        */
+/*   By: codespace <codespace@student.42.fr>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/22 18:25:43 by codespace         #+#    #+#             */
-/*   Updated: 2023/05/24 00:26:21 by bogunlan         ###   ########.fr       */
+/*   Updated: 2023/07/17 09:02:17 by codespace        ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,19 +82,19 @@ class PmergeMe {
 
 		template<typename T>
 		static T mergeInsertionSortContainer(T &container) {
-			if (container.size() <= 10) {
+			if (container.size() <= 3) {
 				return insertionSort(container);
 			}
 
 			const int middle = container.size() / 2;
-			T v_left;
-			T v_right;
+			T left;
+			T right;
 
 			int counter = 0;
 
 			typename T::iterator container_it = container.begin();
 			while (container_it != container.end()) {
-				v_left.push_back(*container_it);
+				left.push_back(*container_it);
 				container_it++;
 				counter++;
 				if (counter == middle) {
@@ -103,12 +103,12 @@ class PmergeMe {
 			}
 
 			while (container_it != container.end()) {
-				v_right.push_back(*container_it);
+				right.push_back(*container_it);
 				container_it++;
 			}
 
-			T sortedLeft = mergeInsertionSortContainer(v_left);
-			T sortedRight = mergeInsertionSortContainer(v_right);
+			T sortedLeft = mergeInsertionSortContainer(left);
+			T sortedRight = mergeInsertionSortContainer(right);
 
 			return merge(sortedLeft, sortedRight);
 		}
